@@ -210,3 +210,98 @@ Final technical decisions remain with the project maintainers.
 
 # End of Part 2
 
+---
+
+# 10. Security Standards
+
+Security is a fundamental quality attribute of DocWizer.
+
+The application shall follow these principles:
+
+## Privacy First
+
+User documents belong exclusively to the user.
+
+No document shall be transmitted, uploaded, synchronized, or shared without an explicit action initiated by the user.
+
+---
+
+## Least Permission Principle
+
+The application should request only the permissions necessary to perform its approved features.
+
+Every permission request must provide a clear benefit to the user.
+
+---
+
+## Safe Data Handling
+
+Temporary files should be cleaned up whenever they are no longer required.
+
+The application should avoid creating unnecessary duplicate files that consume storage.
+
+---
+
+## Secure Development
+
+Security should be considered during design, implementation, testing, and maintenance.
+
+Fixing vulnerabilities is a higher priority than introducing new features.
+
+---
+
+# 11. Quality Standards
+
+Quality is measured by user experience, stability, and maintainability.
+
+Every release should satisfy the following expectations:
+
+* Stable operation during normal use.
+* Predictable and consistent behavior.
+* Clear error messages.
+* Responsive interactions.
+* No unfinished or experimental features in production releases.
+* Documentation updated whenever significant functionality changes.
+
+---
+
+# 12. Git Workflow
+
+The Git repository is the official source of truth.
+
+The workflow is:
+
+1. Plan the feature.
+2. Update documentation if required.
+3. Implement the feature.
+4. Test the implementation.
+5. Review the changes.
+6. Commit using a meaningful commit message.
+7. Push to the main repository.
+
+Commit messages should follow Conventional Commits where appropriate:
+
+* feat:
+* fix:
+* docs:
+* refactor:
+* test:
+* chore:
+
+---
+
+# 13. Definition of Done
+
+A task is considered complete only when:
+
+* The implementation satisfies the approved requirements.
+* No known critical defects remain.
+* Documentation is updated where necessary.
+* Code has been reviewed.
+* The feature behaves consistently with the rest of the application.
+* The feature is considered ready for release without additional development work.
+
+---
+
+# End of Part 3
+
