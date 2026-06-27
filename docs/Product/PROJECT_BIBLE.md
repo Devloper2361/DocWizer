@@ -305,3 +305,88 @@ A task is considered complete only when:
 
 # End of Part 3
 
+---
+
+# 14. Release Process
+
+Every release of DocWizer must follow a consistent and predictable process.
+
+## Development Phase
+
+* Features are implemented according to approved documentation.
+* Significant architectural changes require documentation updates.
+* New functionality should not compromise existing behavior.
+
+## Testing Phase
+
+Before a release:
+
+* All planned features for the milestone are completed.
+* Critical bugs are resolved.
+* Manual testing has been completed on supported devices.
+* Performance and stability are verified.
+
+## Release Phase
+
+Each public release must include:
+
+* Version number
+* Release notes
+* Updated documentation where required
+
+Every release should improve the product rather than simply add features.
+
+---
+
+# 15. Versioning Strategy
+
+DocWizer follows Semantic Versioning.
+
+Examples:
+
+* v0.1.0 — Initial internal prototype
+* v0.5.0 — Feature-complete beta
+* v1.0.0 — First public production release
+* v1.1.0 — New features
+* v1.1.1 — Bug fixes
+* v2.0.0 — Major architectural or feature changes
+
+Version numbers communicate the maturity and stability of the application.
+
+---
+
+# 16. Long-Term Vision
+
+DocWizer is intended to become a trusted document management platform built around simplicity, privacy, and reliability.
+
+Future versions may expand functionality only when those additions remain consistent with the core product principles.
+
+Growth should never come at the expense of user trust or product quality.
+
+---
+
+# 17. Governance
+
+The Project Bible is the highest-level project document.
+
+If another document conflicts with this Project Bible, the Project Bible takes precedence until an approved revision is made.
+
+All significant product, engineering, and design decisions should remain aligned with this document.
+
+---
+
+# Approval
+
+Document Name: PROJECT_BIBLE.md
+
+Version: 1.0
+
+Status: Approved
+
+Approved By: Project Founder and CTO
+
+This document becomes the official foundation for all future planning, design, development, testing, and release activities within the DocWizer project.
+
+---
+
+# End of Document
