@@ -118,3 +118,95 @@ The application must remain focused on solving real problems rather than collect
 # End of Part 1
 
 The remaining sections—including Engineering Principles, Development Standards, Security Standards, Git Workflow, Quality Standards, Definition of Done, and Release Process—will be added in subsequent approved revisions.
+
+---
+
+# 6. Engineering Principles
+
+These principles guide every technical decision made throughout the project.
+
+## SOLID
+
+Code should be modular, maintainable, and easy to extend without breaking existing functionality.
+
+## KISS (Keep It Simple, Stupid)
+
+Always prefer the simplest solution that satisfies the requirement.
+
+Complexity should only be introduced when it provides clear and measurable value.
+
+## DRY (Don't Repeat Yourself)
+
+Business logic should exist in one place.
+
+Avoid duplicate implementations that increase maintenance effort.
+
+## YAGNI (You Aren't Gonna Need It)
+
+Do not build features for hypothetical future requirements.
+
+Every implementation must solve a real and approved product need.
+
+## Composition over Inheritance
+
+Favor small, reusable components instead of deep inheritance hierarchies.
+
+This improves flexibility and testability.
+
+## Feature Isolation
+
+Every feature should remain as independent as practical.
+
+Changes in one feature should have minimal impact on others.
+
+---
+
+# 7. Product Philosophy
+
+DocWizer is designed to solve document-management problems—not to become an all-in-one productivity suite.
+
+Every feature must satisfy three conditions:
+
+* Solve a genuine user problem.
+* Keep the application simple.
+* Improve the overall user experience.
+
+Features that do not meet these conditions should not be included.
+
+---
+
+# 8. Development Standards
+
+Every contribution to DocWizer must meet the following standards:
+
+* Follow the approved project architecture.
+* Keep functions focused on a single responsibility.
+* Write readable, self-explanatory code.
+* Avoid unnecessary dependencies.
+* Prefer maintainability over clever implementations.
+* Update documentation when introducing significant changes.
+
+Code reviews should prioritize correctness, clarity, security, and long-term maintainability rather than personal coding style.
+
+---
+
+# 9. AI Collaboration Rules
+
+AI tools are collaborators, not decision-makers.
+
+Every AI assistant contributing to the project must:
+
+* Read the latest approved documentation before generating code.
+* Respect the approved architecture.
+* Never introduce new dependencies without approval.
+* Never modify the project structure without approval.
+* Clearly explain significant architectural suggestions.
+* Avoid generating unnecessary code or features.
+* Keep generated code consistent with project standards.
+
+Final technical decisions remain with the project maintainers.
+
+---
+
+# End of Part 2
+
